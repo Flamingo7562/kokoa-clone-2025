@@ -1,3 +1,3 @@
 # Kokoa Clone 2025 Tutorial
 
-CSS
+HTML & CSS tutorial is cool
