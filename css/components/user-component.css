@@ -48,6 +48,10 @@
   color: rgba(0, 0, 0, 0.4);
 }
 
+.user-component__subtitle i {
+  padding-left: 5px;
+  color: tomato;
+}
 .user-component__time {
   display: block;
   margin-bottom: 10px;
