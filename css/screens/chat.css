@@ -2,3 +2,18 @@
   background-color: #abc1d1;
   height: 1000vh;
 }
+#chat-screen .status-bar,
+#chat-screen .alt-header {
+  background-color: #abc1d1;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.invisible-div {
+  opacity: 0;
+}
+
+.main-chat {
+  margin-top: 150px;
+}
