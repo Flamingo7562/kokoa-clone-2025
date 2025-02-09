@@ -18,15 +18,17 @@
 
 .gear-container {
   position: relative;
+  display: inline-block;
 }
 .screen-header__notification {
+  position: absolute;
   background-color: tomato;
   display: block;
   width: 5px;
   height: 5px;
   border-radius: 50%;
   left: -2px;
-  bottom: 17px;
+  bottom: 24px;
 }
 
 @keyframes rotateCog {
@@ -38,6 +40,6 @@
   }
 }
 
-.screen-header__icons .fa-gear:hover {
+.screen-header__icons .only-gear:hover {
   animation: rotateCog 2s linear infinite;
 }
